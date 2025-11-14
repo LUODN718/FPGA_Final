@@ -11,7 +11,7 @@ module DevelopmentBoard(
 
     wire game_over;      // 来自 lab4 的游戏结束信号
 
-    lab4 lab4_inst (
+    lab5 lab5_inst (
         .sys_clk(clk),
         .sys_rst_n(~reset),  // 低有效复位
         .btn_left(B2),       // 左移
